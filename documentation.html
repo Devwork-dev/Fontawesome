@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Font Awesome Cheatsheet</title>
+    <link rel="icon" href="src/fontawesome.png" type="image/png"> 
+
+    
+
+ <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="src/bootstrap-4.4.1/css/bootstrap.min.css">
+
+ <!-- fontawesome -->
+<link href="src/fontawesome-5.12.1/css/all.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="src/prism/prism.css">
+
+
+
+</head>
+
+<style type="text/css">
+  * {margin: 0; padding: 0;}
+body {background: #fff; position: relative; font-size: .9375rem;}
+
+</style>
+
+  <body>
+   
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <span class="fab fa-font-awesome-flag mr-2"></span> 
+        <strong>Font Awesome</strong>
+      </a>
+    </div>
+  </div>
+
+
+
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Font Awesome Free's Cheatsheet v5.12.1</h1>
+      <p class="lead text-muted">Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.</p>
+      <p>After you're set up on the desktop or in code, quickly copy and paste the glyph, name, or unicode value of any icon.</p>
+      <p>
+        <a href="index.html" class="btn btn-secondary my-2"><span class="fas fa-home mr-2"></span>Home</a>
+        <a href="#" class="btn btn-dark my-2"><span class="fab fa-github mr-2"></span>Fork me on Github</a>
+      </p>
+    </div>
+  </section>
+
+<!--   <div class="py-2 text-center">
+   
+    <h2 class="font-weight-strong py-2">Solid Icons</h2>
+  
+        <a href="#" class="btn btn-secondary my-2"><span class="fab fa-font-awesome-flag mr-2"></span>Solid</a>
+        <a href="#" class="btn btn-secondary my-2"><span class="fab fa-font-awesome-flag mr-2"></span>Regular</a>
+        <a href="#" class="btn btn-secondary my-2"><span class="fab fa-font-awesome-flag mr-2"></span>Brands</a>
+  </div> -->
+
+<div class="container">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link text-dark active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Introduction</a>
+  </li>
+<!--   <li class="nav-item">
+    <a class="nav-link text-dark" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Set up</a>
+  </li> -->
+  <li class="nav-item">
+    <a class="nav-link text-dark " id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Basic Use</a>
+  </li>
+  <!-- <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Sizing</a>
+  </li> -->
+</ul>
+</div>
+
+
+<div class="album py-2">
+    <div class="container">
+   
+   <!--  <h2 class="font-weight-bold text-center text-capitalize py-4">Solid Icons</h2> -->
+
+
+    <div class="row">
+
+<!--   <div class="col-3">
+   
+    <div class="nav list-group flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="list-group-item list-group-item-action list-group-item-secondary d-flex justify-content-between align-items-center" id="v-pills-introduction-tab" data-toggle="pill" href="#v-pills-introduction" role="tab" aria-controls="v-pills-introduction" aria-selected="true">Introduction <span class="fas fa-angle-right"></span></a>
+      <a class="list-group-item list-group-item-action list-group-item-secondary d-flex justify-content-between align-items-center" id="v-pills-setup-tab" data-toggle="pill" href="#v-pills-setup" role="tab" aria-controls="v-pills-setup" aria-selected="false">Set up <span class="fas fa-angle-right"></span></a>
+      <a class="list-group-item list-group-item-action list-group-item-secondary d-flex justify-content-between align-items-center" id="v-pills-basic-tab" data-toggle="pill" href="#v-pills-basic" role="tab" aria-controls="v-pills-basic" aria-selected="false">Basic Use <span class="fas fa-angle-right"></span></a>
+      <a class="list-group-item list-group-item-action list-group-item-secondary d-flex justify-content-between align-items-center" id="v-pills-size-tab" data-toggle="pill" href="#v-pills-size" role="tab" aria-controls="v-pills-size" aria-selected="false">Sizing <span class="fas fa-angle-right"></span></a>
+
+    </div>
+
+
+
+  </div> -->
+
+
+  <div class="col-12">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        
+<div class="jumbotron">
+  <h1 class="font-weight-bold text-capitalize">Introduction</h1>
+  <p class="lead"><strong>Fontawesome Offline Cheat Sheet</strong> This is a font awesome cheat sheet. We made this because sometimes we struggle a lot without internet connection, 
+then many people find them self working on a project without a copy of the documentation of this awesome project <a href="https://fontawesome.com" class="text-decoration-none">Fontawesome.com</a> .
+Many people messing or mistyping a lot struggling what have happen or what miracle they have to type to get what they want to happen. This offline documentation 
+Will help to lessen their hard time and it will also help the new aspiring developer 
+To get used to using this awesome icon package that font awesome may offer.</p>
+  <hr class="my-4">
+
+
+  <h5>Hosting Font Awesome Yourself</h5>
+
+  <p>Prefer to get a copy and use Font Awesome alongside your own project’s source code while building locally and serving in production? Downloading and hosting Font Awesome yourself is great for when you have many sites or apps in one codebase or want to customize parts of Font Awesome for your workflow.</p>
+
+<div class="alert alert-info alert-dismissible fade show" role="alert">
+  <strong>You've download a copy already, right? </strong> Make sure you've downloaded a copy of our for the web-specific files. You'll need it to do any of the following things we'll be walking through.
+  <br>
+  <a href="https://use.fontawesome.com/releases/v5.12.1/fontawesome-free-5.12.1-web.zip" download="" class="btn btn-primary my-3"><span class="fas fa-download mr-2"></span>Download Font Awesome Free for the Web</a>
+
+
+</div>
+
+<h5>What’s in the Download?</h5>
+
+  <p>The web-focused Font Awesome Package contains the following directories and files:</p>
+
+<div class="table-responsive">
+<table class="table bg-light">
+  <thead>
+    <tr>
+      <th scope="col">Files &amp; Folders</th>
+      <th scope="col">What They Are</th>
+      <th scope="col">Where You Should Start</th>
+    </tr>
+  </thead>
+  <tbody>
+             <tr>
+                <td style="text-align: left;"><code class="inline">/css</code></td>
+                <td style="text-align: left;">Stylesheets for Web Fonts</td>
+                <td style="text-align: left;"><code class="inline">all.css</code></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><code class="inline">/js</code></td>
+                <td style="text-align: left;">SVG with JavaScript</td>
+                <td style="text-align: left;"><code class="inline">all.js</code></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><code class="inline">/less</code></td>
+                <td style="text-align: left;">Less pre-processor</td>
+                <td style="text-align: left;"><code class="inline">fontawesome.less</code></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><code class="inline">/scss</code></td>
+                <td style="text-align: left;">Sass pre-processor</td>
+                <td style="text-align: left;"><code class="inline">fontawesome.scss</code></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><code class="inline">/sprites</code></td>
+                <td style="text-align: left;">SVG sprites</td>
+                <td style="text-align: left;"><code class="inline">solid.svg</code></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><code class="inline">/svgs</code></td>
+                <td style="text-align: left;">Individual SVG for each icon</td>
+                <td style="text-align: left;">individual <code class="inline">*.svg</code> icons</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><code class="inline">/webfonts</code></td>
+                <td style="text-align: left;">Web Font files used with CSS</td>
+                <td style="text-align: left;">See <code class="inline">/css</code></td>
+            </tr>
+  </tbody>
+</table>
+</div>
+
+<h5>Using Web Fonts with CSS </h5>
+
+<p>The <code class="inline">/css/all.css</code> file contains the core styling plus all of the icon styles that you’ll need when using Font Awesome. The <code class="inline">/webfonts</code> folder contains all of the typeface files that the above CSS references and depends on.</p>
+
+<p>Copy the entire <code class="inline">/webfonts</code> folder and the <code class="inline">/css/all.css</code> into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff).</p>
+
+<p>Add a reference to the copied <code class="inline">/css/all.css</code> file into the <code class="inline">&lt;head&gt;</code> of each template or page that you want to use Font Awesome on.</p>
+
+
+<pre class="rounded">
+<code class="language-html">
+&#60;head&#62; 
+&#60;link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"&#62; &#60;!--load all styles --&#62; 
+&#60;/head&#62; 
+&#60;body&#62; 
+&#60;i class="fas fa-user"&#62;&#60;/i&#62; &#60;!-- uses solid style --&#62; 
+&#60;i class="far fa-user"&#62;&#60;/i&#62; &#60;!-- uses regular style --&#62; 
+&#60;i class="fal fa-user"&#62;&#60;/i&#62; &#60;!-- uses light style --&#62; 
+&#60;!--brand icon--&#62; &#60;i class="fab fa-github-square"&#62;&#60;/i&#62; &#60;!-- uses brands style --&#62; 
+&#60;/body&#62;
+</code>
+</pre>
+
+<hr class="my-4">
+
+<h5>Using SVG with JavaScript </h5>
+
+<p>The <code class="inline">/js/all.js</code> loads all of the base features, plus all of the icon styles that you’ll need when using Font Awesome. Copy it into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff).</p>
+
+<p>Add a reference to the copied <code class="inline">/js/all.js</code> file within the <code class="inline">&lt;head&gt;</code> of each template or page that you want to use Font Awesome on.</p>
+
+<pre class="rounded">
+<code class="language-html">
+&#60;head&#62; 
+&#60;script defer src="/your-path-to-fontawesome/js/all.js"&#62;&#60;/script&#62; &#60;!--load all styles --&#62; 
+&#60;/head&#62; 
+&#60;body&#62; 
+&#60;i class="fas fa-user"&#62;&#60;/i&#62; &#60;!-- uses solid style --&#62; 
+&#60;i class="far fa-user"&#62;&#60;/i&#62; &#60;!-- uses regular style --&#62; 
+&#60;i class="fal fa-user"&#62;&#60;/i&#62; &#60;!-- uses light style --&#62; 
+&#60;!--brand icon--&#62; 
+&#60;i class="fab fa-github-square"&#62;&#60;/i&#62; &#60;!-- uses brands style --&#62; 
+&#60;/body&#62;
+</code>
+</pre>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Double-Check Your Paths </strong> Since you're managing all of the downloaded files yourself, make sure the references in your pages' <code>&lt;head&gt;</code> are accurate with where you've moved all of Font Awesome's files in your project.
+</div>
+
+<hr class="my-4">
+
+
+
+<h5>Using Just Certain Styles </h5>
+
+<p><strong>Want to use just certain styles of icons when using our Web Fonts with CSS framework?</strong> The <code class="inline">/css</code> folder contains the core styling and additional files for all of Font Awesome’s style options - <a href="/icons?s=solid">solid</a>, <a href="/icons?s=regular">regular</a>, <a href="/icons?s=light">light</a>, and <a href="/icons?s=brands">brands</a>. The <code class="inline">/webfonts</code> folder contains all of the typeface files that the above CSS references and depends on.</p>
+
+<div class="table-responsive">
+<table class="table bg-light">
+ <thead>
+        <tr>
+            <th style="text-align: left;">Icon Style</th>
+            <th style="text-align: left;">Web Font Filename</th>
+            <th style="text-align: left;">CSS Filename</th>
+            <th style="text-align: left;">Availability</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=brands">Font Awesome Brands</a></td>
+            <td style="text-align: left;"><code class="inline">fa-brands-400.*</code></td>
+            <td style="text-align: left;"><code class="inline">brands.css</code></td>
+            <td style="text-align: left;">Free</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=solid">Font Awesome Solid</a></td>
+            <td style="text-align: left;"><code class="inline">fa-solid-900.*</code></td>
+            <td style="text-align: left;"><code class="inline">solid.css</code></td>
+            <td style="text-align: left;">Free</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=regular">Font Awesome Regular</a></td>
+            <td style="text-align: left;"><code class="inline">fa-regular-400.*</code></td>
+            <td style="text-align: left;"><code class="inline">regular.css</code></td>
+            <td style="text-align: left;"><a href="/pro">Pro only</a></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=light">Font Awesome Light</a></td>
+            <td style="text-align: left;"><code class="inline">fa-light-300.*</code></td>
+            <td style="text-align: left;"><code class="inline">light.css</code></td>
+            <td style="text-align: left;"><a href="/pro">Pro only</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<p>Copy both the <code class="inline">/webfonts</code> and the <code class="inline">/css</code> folders into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff). You can remove any styles’ <code class="inline">.css</code> and web font files you don’t plan on using if you’d like.</p>
+
+<p>Add a reference to the core styling file (<code class="inline">/css/fontawesome.css</code>) and the CSS for individual styles (e.g. <code class="inline">/css/brands.css</code>) into the <code class="inline">&lt;head&gt;</code> of each template or page that you want to use Font Awesome on. Pay attention to the pathing of your project and where you moved the files to in the previous step.</p>
+
+<pre class="rounded">
+<code class="language-html">
+&#60;head&#62; 
+&#60;!-- Our project just needs Font Awesome Solid + Brands --&#62; 
+&#60;link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet"&#62; 
+&#60;link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet"&#62; 
+&#60;link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"&#62; 
+&#60;/head&#62; 
+&#60;body&#62; 
+&#60;i class="fas fa-user"&#62;&#60;/i&#62; &#60;!-- uses solid style --&#62; 
+&#60;i class="fab fa-github-square"&#62;&#60;/i&#62; &#60;!-- uses brand style --&#62; 
+&#60;/body&#62;
+</code>
+</pre>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Mind the Paths in Web Fonts </strong> We recommend keeping the <code>/webfonts</code> and <code>/css</code> folders in the same directory. If you don't, you'll need to change the path to the web fonts mentioned in each style's CSS file.
+</div>
+
+<p><strong>Want use only certain styles when using our SVG with JS framework?</strong> The <code class="inline">/js</code> folder contains the core styling and additional files for all of Font Awesome’s style options - <a href="/icons?s=solid">solid</a>, <a href="/icons?s=regular">regular</a>, <a href="/icons?s=light">light</a>, and <a href="/icons?s=brands">brands</a>.</p>
+
+<p><strong>Want use only certain styles when using our SVG with JS framework?</strong> The <code class="inline">/js</code> folder contains the core styling and additional files for all of Font Awesome’s style options - <a href="/icons?s=solid">solid</a>, <a href="/icons?s=regular">regular</a>, <a href="/icons?s=light">light</a>, and <a href="/icons?s=brands">brands</a>.</p>
+
+<div class="table-responsive">
+<table class="table bg-light">
+  <thead>
+            <tr>
+                <th style="text-align: left;">Icon Style</th>
+                <th style="text-align: left;">JS Filename</th>
+                <th style="text-align: left;">Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=brands">Font Awesome Brands</a></td>
+                <td style="text-align: left;"><code class="inline">brands.js</code></td>
+                <td style="text-align: left;">Free</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=solid">Font Awesome Solid</a></td>
+                <td style="text-align: left;"><code class="inline">solid.js</code></td>
+                <td style="text-align: left;">Free</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=regular">Font Awesome Regular</a></td>
+                <td style="text-align: left;"><code class="inline">regular.js</code></td>
+                <td style="text-align: left;"><a href="/pro">Pro only</a></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=light">Font Awesome Light</a></td>
+                <td style="text-align: left;"><code class="inline">light.js</code></td>
+                <td style="text-align: left;"><a href="/pro">Pro only</a></td>
+            </tr>
+        </tbody>
+</table>
+</div>
+
+<p>Copy the <code class="inline">fontawesome.js</code> loader and whatever icon styles’ <code class="inline">.js</code> files you’d like to use into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff). We recommend referencing the <code class="inline">fontawesome.js</code> loader last.</p>
+
+<pre class="rounded">
+<code class="language-html">
+&#60;head&#62; 
+&#60;!-- Our project just needs Font Awesome Solid + Brands --&#62; 
+&#60;link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet"&#62; 
+&#60;link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet"&#62; 
+&#60;link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"&#62; 
+&#60;/head&#62; 
+&#60;body&#62; 
+&#60;i class="fas fa-user"&#62;&#60;/i&#62; &#60;!-- uses solid style --&#62; 
+&#60;i class="fab fa-github-square"&#62;&#60;/i&#62; &#60;!-- uses brand style --&#62; 
+&#60;/body&#62;
+</code>
+</pre>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Double-Check Your Paths </strong> Since you're managing all of the downloaded files yourself, make sure the references in your pages' <code>&lt;head&gt;</code> are accurate with where you've moved all of Font Awesome's files in your project.
+</div>
+
+<hr class="my-4">
+
+</div>
+
+
+
+
+      </div>
+
+<!--       <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        
+<div class="jumbotron">
+  <h1 class="font-weight-bold text-capitaliz">Set up</h1>
+  <p class="lead">Prefer to get a copy and use Font Awesome alongside your own project’s source code while building locally and serving in production? Downloading and hosting Font Awesome yourself is great for when you have many sites or apps in one codebase or want to customize parts of Font Awesome for your workflow.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
+</div>
+
+
+      </div> -->
+
+
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        
+<div class="jumbotron">
+  <h1 class="font-weight-bold text-capitaliz">Basic Use</h1>
+  <p class="lead">You can place Font Awesome icons just about anywhere using a style prefix and the icon’s name. We’ve tried to make it so that icons will take on the characteristics and appear alongside text naturally.</p>
+  <hr class="my-4">
+  <p>Font Awesome is designed to be used with inline elements and we recommend sticking with a consistent HTML element to reference them by in your project. We like the <code class="inline">&lt;i&gt;</code> tag for brevity and for the fact that most folks are using <code class="inline">&lt;em&gt;&lt;/em&gt;</code> for emphasized/italicized semantic text these days. If that’s not your cup of tea, using a <code class="inline">&lt;span&gt;</code> is more semantically correct.</p>
+
+  <p>You need to know two bits of information to reference an icon, <strong>1) its name, prefixed with <code class="inline">fa-</code></strong> and <strong>2. the style you want to use’s corresponding prefix</strong>.</p>
+
+  <div class="card">
+  <div class="card-body">
+    <i class="fas fa-camera"></i> 
+    <i class="fas fa-camera"></i> 
+    <span class="fas fa-camera"></span> 
+  </div>
+</div>
+
+<pre class="rounded">
+<code class="language-html">
+&#60;i class="fas fa-camera"&#62;&#60;/i&#62; &#60;!-- this icon's 1) style prefix == fas and 2) icon name == camera --&#62; 
+&#60;i class="fas fa-camera"&#62;&#60;/i&#62; &#60;!-- using an &#60;i&#62; element to reference the icon --&#62; 
+&#60;span class="fas fa-camera"&#62;&#60;/span&#62; &#60;!-- using a &#60;span&#62; element to reference the icon --&#62;
+</code>
+</pre>
+
+<div class="table-responsive">
+<table class="table bg-light">
+  <thead>
+            <tr>
+                <th style="text-align: left;">Style</th>
+                <th style="text-align: left;">Availability</th>
+                <th style="text-align: left;">Style Prefix</th>
+                <th style="text-align: left;">Example</th>
+                <th style="text-align: left;">Rendering</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=solid">Solid</a></td>
+                <td style="text-align: left;">Free</td>
+                <td style="text-align: left;"><code class="inline">fas</code></td>
+                <td style="text-align: left;"><code class="inline">&lt;i class="fas fa-camera"&gt;&lt;/i&gt;</code></td>
+                <td style="text-align: left;">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="camera" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-camera fa-w-16 fa-2x">
+                        <path fill="currentColor" d="M512 144v288c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48h88l12.3-32.9c7-18.7 24.9-31.1 44.9-31.1h125.5c20 0 37.9 12.4 44.9 31.1L376 96h88c26.5 0 48 21.5 48 48zM376 288c0-66.2-53.8-120-120-120s-120 53.8-120 120 53.8 120 120 120 120-53.8 120-120zm-32 0c0 48.5-39.5 88-88 88s-88-39.5-88-88 39.5-88 88-88 88 39.5 88 88z" class=""></path>
+                    </svg>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=regular">Regular</a></td>
+                <td style="text-align: left;"><a href="/pro">Pro Required</a></td>
+                <td style="text-align: left;"><code class="inline">far</code></td>
+                <td style="text-align: left;"><code class="inline">&lt;i class="far fa-camera"&gt;&lt;/i&gt;</code></td>
+                <td style="text-align: left;">
+                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="camera" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-camera fa-w-16 fa-2x">
+                        <path fill="currentColor" d="M342.7 144H464v288H48V144h121.3l24-64h125.5l23.9 64zM324.3 32h-131c-20 0-37.9 12.4-44.9 31.1L136 96H48c-26.5 0-48 21.5-48 48v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48h-88l-14.3-38c-5.8-15.7-20.7-26-37.4-26zM256 408c-66.2 0-120-53.8-120-120s53.8-120 120-120 120 53.8 120 120-53.8 120-120 120zm0-192c-39.7 0-72 32.3-72 72s32.3 72 72 72 72-32.3 72-72-32.3-72-72-72z" class=""></path>
+                    </svg>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=light">Light</a></td>
+                <td style="text-align: left;"><a href="/pro">Pro Required</a></td>
+                <td style="text-align: left;"><code class="inline">fal</code></td>
+                <td style="text-align: left;"><code class="inline">&lt;i class="fal fa-camera"&gt;&lt;/i&gt;</code></td>
+                <td style="text-align: left;">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="camera" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-camera fa-w-16 fa-2x">
+                        <path fill="currentColor" d="M324.3 64c3.3 0 6.3 2.1 7.5 5.2l22.1 58.8H464c8.8 0 16 7.2 16 16v288c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16h110.2l20.1-53.6c2.3-6.2 8.3-10.4 15-10.4h131m0-32h-131c-20 0-37.9 12.4-44.9 31.1L136 96H48c-26.5 0-48 21.5-48 48v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48h-88l-14.3-38c-5.8-15.7-20.7-26-37.4-26zM256 408c-66.2 0-120-53.8-120-120s53.8-120 120-120 120 53.8 120 120-53.8 120-120 120zm0-208c-48.5 0-88 39.5-88 88s39.5 88 88 88 88-39.5 88-88-39.5-88-88-88z" class=""></path>
+                    </svg>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=duotone">Duotone</a></td>
+                <td style="text-align: left;"><a href="/pro">Pro Required</a></td>
+                <td style="text-align: left;"><code class="inline">fad</code></td>
+                <td style="text-align: left;"><code class="inline">&lt;i class="fad fa-camera"&gt;&lt;/i&gt;</code></td>
+                <td style="text-align: left;">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="camera" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-camera fa-w-16 fa-2x">
+                        <g class="fa-group">
+                            <path fill="currentColor" d="M344 288a88 88 0 1 1-88-88 88.13 88.13 0 0 1 88 88z" class="fa-secondary"></path>
+                            <path fill="currentColor" d="M464 96h-88l-12.4-32.9A47.93 47.93 0 0 0 318.7 32H193.2a47.93 47.93 0 0 0-44.9 31.1L136 96H48a48 48 0 0 0-48 48v288a48 48 0 0 0 48 48h416a48 48 0 0 0 48-48V144a48 48 0 0 0-48-48zM256 408a120 120 0 1 1 120-120 120.1 120.1 0 0 1-120 120z" class="fa-primary"></path>
+                        </g>
+                    </svg>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"><a href="/icons?s=brands">Brands</a></td>
+                <td style="text-align: left;">Free</td>
+                <td style="text-align: left;"><code class="inline">fab</code></td>
+                <td style="text-align: left;"><code class="inline">&lt;i class="fab fa-font-awesome"&gt;&lt;/i&gt;</code></td>
+                <td style="text-align: left;">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="font-awesome" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-font-awesome fa-w-14 fa-2x">
+                        <path fill="currentColor" d="M397.8 32H50.2C22.7 32 0 54.7 0 82.2v347.6C0 457.3 22.7 480 50.2 480h347.6c27.5 0 50.2-22.7 50.2-50.2V82.2c0-27.5-22.7-50.2-50.2-50.2zm-45.4 284.3c0 4.2-3.6 6-7.8 7.8-16.7 7.2-34.6 13.7-53.8 13.7-26.9 0-39.4-16.7-71.7-16.7-23.3 0-47.8 8.4-67.5 17.3-1.2.6-2.4.6-3.6 1.2V385c0 1.8 0 3.6-.6 4.8v1.2c-2.4 8.4-10.2 14.3-19.1 14.3-11.3 0-20.3-9-20.3-20.3V166.4c-7.8-6-13.1-15.5-13.1-26.3 0-18.5 14.9-33.5 33.5-33.5 18.5 0 33.5 14.9 33.5 33.5 0 10.8-4.8 20.3-13.1 26.3v18.5c1.8-.6 3.6-1.2 5.4-2.4 18.5-7.8 40.6-14.3 61.5-14.3 22.7 0 40.6 6 60.9 13.7 4.2 1.8 8.4 2.4 13.1 2.4 22.7 0 47.8-16.1 53.8-16.1 4.8 0 9 3.6 9 7.8v140.3z" class=""></path>
+                    </svg>
+                </td>
+            </tr>
+        </tbody>
+</table>
+</div>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+ <p class="mt1 mb0 lh-copy">
+    The <code>fa</code> prefix has been deprecated in version 5. The new default is the <code>fas</code> solid style and the <code>fab</code> style for brands.</p>
+</div>
+
+<p>Since Font Awesome was first implemented and continues to support being rendered using the CSS <code class="inline">@font-face</code> method, each of its styles corresponds to a particular font weight:</p>
+
+<div class="table-responsive">
+<table class="table bg-light">
+<thead>
+        <tr>
+            <th style="text-align: left;">Style</th>
+            <th style="text-align: left;">Availability</th>
+            <th style="text-align: left;">@font-face weight</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=solid">Solid</a></td>
+            <td style="text-align: left;">Free Plan</td>
+            <td style="text-align: left;">900</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=regular">Regular</a></td>
+            <td style="text-align: left;"><a href="/plans">Pro Plan Required</a></td>
+            <td style="text-align: left;">400</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=light">Light</a></td>
+            <td style="text-align: left;"><a href="/plans">Pro Plan Required</a></td>
+            <td style="text-align: left;">300</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=duotone">Duotone</a></td>
+            <td style="text-align: left;"><a href="/plans">Pro Plan Required</a></td>
+            <td style="text-align: left;">900</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><a href="/icons?s=brands">Brands</a></td>
+            <td style="text-align: left;">Free Plan</td>
+            <td style="text-align: left;">400</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+ <p class="mt1 mb0 lh-copy">
+  <strong>Ligature use in Font Awesome on the web</strong>
+  
+    While our desktop workflow takes advantage of ligatures to make inserting icons into your favorite design and presentation apps easy as well as our SVG + JS framework, ligature lookup tables take up additional file space and can cause performance issues. Until we have options and solutions for subsetting icons, we aren't comfortable considering ligatures for Web Fonts + CSS.
+   </p>
+</div>
+
+<h5>Font Awesome Icons + Your Project’s Styling </h5>
+
+<p>Font Awesome icons automatically inherit CSS size and color. This means they blend in with text inline wherever you put them. Font Awesome tries not to be too opinionated, and sets just the basic styling rules icons need to render properly in context.</p>
+
+  <div class="card">
+  <div class="card-body">
+   <span style="font-size: 3em; color: Tomato;">
+  <i class="fas fa-camera"></i>
+</span>
+
+<span style="font-size: 48px; color: Dodgerblue;">
+  <i class="fas fa-camera"></i>
+</span>
+
+<span style="font-size: 3rem;">
+  <span style="color: Mediumslateblue;">
+  <i class="fas fa-camera"></i>
+  </span>
+</span>
+  </div>
+</div>
+
+<pre class="rounded">
+<code class="language-html">
+  &#60;span style="font-size: 3em; color: Tomato;"&#62; 
+  &#60;i class="fas fa-camera"&#62;&#60;/i&#62; 
+  &#60;/span&#62; 
+  &#60;span style="font-size: 48px; color: Dodgerblue;"&#62; 
+  &#60;i class="fas fa-camera"&#62;&#60;/i&#62;
+  &#60;/span&#62; 
+  &#60;span style="font-size: 3rem;"&#62; 
+  &#60;span style="color: Mediumslateblue;"&#62;
+  &#60;i class="fas fa-camera"&#62;&#60;/i&#62;
+  &#60;/span&#62; 
+  &#60;/span&#62;
+</code>
+</pre>
+
+<hr class="my-4">
+
+<h5>Additional Styling Options </h5>
+
+<p>While the basic way to reference an icon is simple and hopefully straight-forward, we’ve provided support-level styling for things like <a href="/how-to-use/on-the-web/styling/sizing-icons" class="link link-underline-dark info5 hover-info6">sizing icons</a>, <a href="/how-to-use/on-the-web/styling/fixed-width-icons" class="link link-underline-dark info5 hover-info6">aligning</a> and <a href="/how-to-use/on-the-web/styling/icons-in-a-list" class="link link-underline-dark info5 hover-info6">listing</a> icons, as well as <a href="/how-to-use/on-the-web/styling/rotating-icons" class="link link-underline-dark info5 hover-info6">rotating</a> and <a href="/how-to-use/on-the-web/styling/power-transforms" class="link link-underline-dark info5 hover-info6">transforming</a> icons.</p>
+
+<p>You can also add your own custom styling to Font Awesome icons by adding your own CSS rules in your project’s code. Here’s a quick example.</p>
+
+
+<pre class="rounded">
+<code class="language-html">
+&#60;head&#62; 
+&#60;!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) --&#62; 
+&#60;link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet"&#62; 
+&#60;link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet"&#62; 
+&#60;link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"&#62; 
+&#60;!-- custom styling for all icons --&#62; 
+i.fas, i.fab { border: 1px solid red; } 
+&#60;!-- custom styling for specific icons --&#62; 
+.fa-fish { color: salmon; } 
+.fa-frog { color: green; } 
+.fa-user-ninja.vanished { opacity: 0.0; } 
+.fa-facebook { color: rgb(59, 91, 152); } 
+&#60;/head&#62; 
+&#60;body&#62; 
+&#60;i class="fas fa-fish"&#62;&#60;/i&#62; 
+&#60;i class="fas fa-frog"&#62;&#60;/i&#62; 
+&#60;i class="fas fa-user-ninja vanished"&#62;&#60;/i&#62; 
+&#60;i class="fab fa-facebook"&#62;&#60;/i&#62; 
+&#60;/body&#62;
+</code>
+</pre>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+ <p class="mt1 mb0 lh-copy">
+  <strong>Writing Custom CSS with our SVG + JS framework</strong>
+  
+    When using our SVG framework, remember that Font Awesome-based <code class="inline">&lt;i&gt;</code> DOM elements are replaced with new <code class="inline">&lt;svg&gt;</code> elements by default. Be sure that your css rules target the right elements.
+
+   </p>
+</div>
+
+<hr class="my-4">
+
+  <h1 class="font-weight-bold text-capitaliz">Sizing Icons</h1>
+  <p class="lead">Both our Web Fonts + CSS and SVG + JS frameworks include some basic controls for sizing icons in the context of your page’s UI.</p>
+  <hr class="my-4">
+
+  <h5>Relative sizing</h5>
+
+  <p>Icons inherit the <code class="inline">font-size</code> of their parent container which allow them to match any text you might use with them. With the following classes, we can increase or decrease the size of icons relative to that inherited <code class="inline">font-size</code>.</p>
+
+    <div class="card">
+  <div class="card-body">
+   <i class="fas fa-camera fa-xs"></i>
+<i class="fas fa-camera fa-sm"></i>
+<i class="fas fa-camera fa-lg"></i>
+<i class="fas fa-camera fa-2x"></i>
+<i class="fas fa-camera fa-3x"></i>
+<i class="fas fa-camera fa-5x"></i>
+<i class="fas fa-camera fa-7x"></i>
+<i class="fas fa-camera fa-10x"></i>
+  </div>
+</div>
+
+<pre class="rounded">
+<code class="language-html">
+ &#60;i class="fas fa-camera fa-xs"&#62;&#60;/i&#62;
+ &#60;i class="fas fa-camera fa-sm"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-lg"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-2x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-3x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-5x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-7x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-10x"&#62;&#60;/i&#62;
+</code>
+</pre>
+
+<p>Here are a few more examples where you can see the relative scale.</p>
+
+    <div class="card">
+  <div class="card-body">
+   <div style="font-size: 0.5rem;">
+  <i class="fas fa-camera fa-xs"></i>
+  <i class="fas fa-camera fa-sm"></i>
+  <i class="fas fa-camera fa-lg"></i>
+  <i class="fas fa-camera fa-2x"></i>
+  <i class="fas fa-camera fa-3x"></i>
+  <i class="fas fa-camera fa-5x"></i>
+  <i class="fas fa-camera fa-7x"></i>
+  <i class="fas fa-camera fa-10x"></i>
+</div>
+  </div>
+</div>
+
+<pre class="rounded">
+<code class="language-html">
+ &#60;div style="font-size: 0.5rem;"&#62;
+ &#60;i class="fas fa-camera fa-xs"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-sm"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-lg"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-2x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-3x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-5x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-7x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-10x"&#62;&#60;/i&#62; 
+ &#60;/div&#62;
+</code>
+</pre>
+
+    <div class="card">
+  <div class="card-body">
+<div style="font-size: 24px;">
+  <i class="fas fa-camera fa-xs"></i>
+  <i class="fas fa-camera fa-sm"></i>
+  <i class="fas fa-camera fa-lg"></i>
+  <i class="fas fa-camera fa-2x"></i>
+  <i class="fas fa-camera fa-3x"></i>
+  <i class="fas fa-camera fa-5x"></i>
+  <i class="fas fa-camera fa-7x"></i>
+  <i class="fas fa-camera fa-10x"></i>
+</div>
+  </div>
+</div>
+
+<pre class="rounded">
+<code class="language-html">
+ &#60;div style="font-size: 24px;"&#62;
+ &#60;i class="fas fa-camera fa-xs"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-sm"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-lg"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-2x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-3x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-5x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-7x"&#62;&#60;/i&#62; 
+ &#60;i class="fas fa-camera fa-10x"&#62;&#60;/i&#62; 
+ &#60;/div&#62;
+</code>
+</pre>
+
+
+<div class="alert alert-info alert-dismissible fade show" role="alert">
+ <p class="mt1 mb0 lh-copy">
+  <strong>Did You Know?</strong>
+  
+
+    You can also directly style an icon's size by setting a <code>font-size</code> in your project's CSS that targets an icon or directly in the <code>style</code> attribute of the HTML element referencing an icon.
+   
+   </p>
+</div>
+
+<hr class="my-4">
+
+<h5>Sizing Scale Details </h5>
+<p></p>
+
+<div class="table-responsive">
+<table class="table bg-light">
+<thead>
+        <tr>
+            <th style="text-align: left;">Class</th>
+            <th style="text-align: left;">Size</th>
+            <th style="text-align: left;">Other Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-xs</code></td>
+            <td style="text-align: left;">.75em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-sm</code></td>
+            <td style="text-align: left;">.875em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-lg</code></td>
+            <td style="text-align: left;">1.33em</td>
+            <td style="text-align: left;">Also applies <code class="inline">vertical-align: -25%</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-2x</code></td>
+            <td style="text-align: left;">2em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-3x</code></td>
+            <td style="text-align: left;">3em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-4x</code></td>
+            <td style="text-align: left;">4em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-5x</code></td>
+            <td style="text-align: left;">5em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-6x</code></td>
+            <td style="text-align: left;">6em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-7x</code></td>
+            <td style="text-align: left;">7em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-8x</code></td>
+            <td style="text-align: left;">8em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-9x</code></td>
+            <td style="text-align: left;">9em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code class="inline">fa-10x</code></td>
+            <td style="text-align: left;">10em</td>
+            <td style="text-align: left;"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+    
+
+<div class="alert alert-info alert-dismissible fade show" role="alert">
+ <p class="mt1 mb0 lh-copy">
+  <strong>Advanced Sizing Customization</strong>
+  
+    If you're using our <a href="/how-to-use/on-the-web/using-with/sass" class="link blue5 hover-blue6 underline-hover">SCSS</a> or <a href="/how-to-use/on-the-web/using-with/less" class="link blue5 hover-blue6 underline-hover">Less</a> CSS pre-processor options, you can tweak the <code>_larger.scss</code> or <code>_larger.less</code> partial with your own scale.
+
+   
+   </p>
+</div>
+
+<hr class="my-4">
+
+
+
+</div>
+
+      </div>
+<!--       <div class="tab-pane fade" id="v-pills-size" role="tabpanel" aria-labelledby="v-pills-size-tab">
+
+<div class="jumbotron">
+  <h1 class="font-weight-bold text-capitaliz">Sizing</h1>
+  <p class="lead">Both our Web Fonts + CSS and SVG + JS frameworks include some basic controls for sizing icons in the context of your page’s UI.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
+</div>
+
+
+      </div> -->
+
+    </div>
+  </div>
+</div>
+
+     
+    </div>
+  </div>
+
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-right">
+      <a href="#" class="text-decoration-none">Back to top</a>
+    </p>
+    <p>Designed and built with all the love in the world by the Devwork team.
+     Currently v1.0 Code licensed MIT, docs CC BY 1.0.</p>
+    <p>Give us some Beer! <a href="JavaScript:Void(0);" class="text-decoration-none">Visit our homepage</a> or read our <a href="#" class="text-decoration-none">Documentation</a>.</p>
+  </div>
+</footer>
+
+<script defer src="src/fontawesome-5.12.1/js/all.js"></script>
+
+<script src="src/prism/prism.js"></script>
+
+<script defer src="src/bootstrap-4.4.1/js/jquery-3.4.1.slim.min.js"></script>
+<script defer src="src/bootstrap-4.4.1/js/popper.min.js"></script>
+<script defer src="src/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
